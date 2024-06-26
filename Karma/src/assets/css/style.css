@@ -1,0 +1,59 @@
+.card {
+    height: 25rem !important;
+    width: 20rem;
+    border: none !important;
+    box-shadow: rgba(21, 1, 1, 0.25) 0px 54px 55px, rgba(248, 246, 246, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important; 
+}
+.blog-con {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px 40px;
+    flex-wrap: wrap;
+    width: 80% !important;
+}
+.card-title {
+    transition: .3s;
+    cursor: pointer;
+}
+.card-title:hover {
+    color: #CF7500;
+}
+.btn-primary {
+    background-color: #CF7500 !important;
+    border: 1px solid black !important;
+    transition: .3s;
+    border-radius: 5px !important;
+    box-shadow: rgba(21, 1, 1, 0.25) 0px 54px 55px, rgba(248, 246, 246, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-primary:hover {
+    background-color: black !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 50%;
+}
+.card-body-subtitle {
+    padding-top: 15px !important;
+}
+.bg-body-tertiary {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.category-con {
+    width: 30% !important;
+}
+.list-group-item:nth-child(1) {
+    background-color: #CF7500;
+    color: white;
+    font-size: 1.5rem;
+}
+.blog-cat {
+    transition: .3s;
+    cursor: pointer;
+}
+.blog-cat:hover {
+    background-color: #CF7500;
+    color: white; 
+    font-size: 1.1rem;
+}
